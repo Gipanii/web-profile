@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 60px;
+    background-color: #03a9f4;
+}
+
+.navi3 {
+    margin: auto;
+    float: right;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.navi {
+    margin: auto;
+    float: right;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: black;
+}
+
+.navi3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.navi a:hover {
+    color: red;
+}
+
+.navi3 a:hover {
+    color: red;
+}
+
+.navi2 {
+    padding-top: 7px;
+    margin: auto;
+    float: left;
+    font-size: 30px;
+}
+
+.navi2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.navi2 a:hover {
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    background-color: #9aedff;
+    width: 100%;
+    height: 595px;
+}
+
+.lo {
+    float: right;
+    font-size: 20px;
+    padding-right: 23px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.lo a {
+    text-decoration: none;
+    color: black;
+}
+
+.lo a:hover {
+    color: red;
+    display: block;
+}
+
+.topik {
+    text-align: center;
+}
+
+.pki {
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pik {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topik p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.po {
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    height: 60px;
+    background-color: #03a9f4;
+}
+
+footer img {
+    font-size: 25px;
+    padding-top: 17px;
+    padding-left: 30px;
+}
+
+
+
+@media screen and (min-width: 300px) (max-width: 600px) {
+    .wrapper {
+        width: 90%;
+    }
+}
